@@ -1,0 +1,410 @@
+body {
+  font-size: 18px;
+  font-family: Space Grotesk;
+  font-weight: 500;
+}
+.validationInput {
+  margin-left: 25%;
+  margin-top: 15%;
+}
+
+.mainBgLeft {
+  display: inline;
+  position: relative;
+  z-index: -1;
+  max-width: 100%;
+  max-height: 100%;
+  height: inherit;
+}
+
+.done {
+  background-color: green;
+}
+.notDone {
+  background-color: red;
+}
+.frontCard1 {
+  position: relative;
+  display: inline;
+  float: left;
+  z-index: 1;
+  width: 84%;
+  bottom: 800px;
+  left: 200px;
+}
+
+.backCard {
+  position: relative;
+  z-index: 1;
+  width: 84%;
+  float: right;
+  bottom: 750px;
+  left: 250px;
+}
+.confirmButton {
+  background-color: hsl(278, 68%, 11%);
+  width: 500px;
+  margin-left: 265px;
+}
+
+.nameOnCard {
+  display: inline;
+  position: absolute;
+  z-index: 1;
+
+  color: white;
+  top: 222px;
+  bottom: 0px;
+  margin-bottom: 0px;
+  left: 211px;
+  right: 0px;
+  width: 250px;
+  height: 20px;
+}
+.expDateMonth {
+  display: inline;
+  position: absolute;
+  z-index: 1;
+
+  color: white;
+  top: 224px;
+  bottom: 0px;
+  margin-bottom: 0px;
+  left: 525px;
+  right: 0px;
+  width: 22px;
+  height: 20px;
+}
+
+.symbol {
+  display: inline;
+  position: absolute;
+  z-index: 1;
+
+  color: white;
+  top: 224px;
+  bottom: 0px;
+  margin-bottom: 0px;
+  left: 545px;
+  right: 0px;
+  width: 22px;
+  height: 20px;
+}
+
+.expDateYear {
+  display: inline;
+  position: absolute;
+  z-index: 1;
+
+  color: white;
+  top: 224px;
+  bottom: 0px;
+  margin-bottom: 0px;
+  left: 553px;
+  right: 0px;
+  width: 22px;
+  height: 20px;
+}
+
+.cardNumber {
+  display: inline;
+  position: absolute;
+  z-index: 1;
+
+  color: white;
+  top: 165px;
+  bottom: 0px;
+  margin-bottom: 0px;
+  left: 333px;
+  right: 0px;
+  width: 250px;
+  height: 20px;
+}
+
+.cardLogo {
+  display: inline;
+  position: absolute;
+  z-index: 1;
+
+  color: white;
+  top: 80px;
+  bottom: 0px;
+  margin-bottom: 0px;
+  left: 214px;
+  right: 0px;
+  width: 87px;
+  height: 44px;
+}
+.pinNumber {
+  display: inline;
+  position: absolute;
+  z-index: 1;
+
+  color: white;
+  top: 403px;
+  bottom: 0px;
+  margin-bottom: 0px;
+  left: 635px;
+  right: 0px;
+  width: 87px;
+  height: 44px;
+}
+
+.nameInput {
+  margin-bottom: 10px;
+  width: 28rem;
+  border-radius: 2.5%;
+  height: 2.4rem;
+}
+.cardNumInput {
+  width: 28rem;
+  border-radius: 2.5%;
+  height: 2.4rem;
+}
+.dateInputM {
+  width: 20%;
+  border-radius: 2.5%;
+  height: 2.4rem;
+  display: inline;
+}
+.dateInputY {
+  width: 20%;
+  border-radius: 2.5%;
+  height: 2.4rem;
+}
+.cvcInput {
+  width: 30%;
+  border-radius: 2.5%;
+  height: 2.4rem;
+}
+
+/* 1536 */
+
+
+
+/* 1496 my laptop res */
+@media (max-width:1536px) and (min-width: 1496px) {
+  body {
+    font-size: 18px;
+    font-family: Space Grotesk;
+    font-weight: 500;
+  }
+
+.hidden{
+  
+}
+
+  .mainBgLeft {
+    display: inline;
+    position: relative;
+    z-index: -1;
+    max-width: 160%;
+    max-height: 150%;
+    height: inherit;
+  }
+  .frontCard1 {
+    position: relative;
+    display: inline;
+    float: left;
+    z-index: 1;
+    width: 117%;
+    bottom: 832px;
+    left: 179px;
+  }
+
+  .backCard {
+    position: relative;
+    z-index: 1;
+    width: 117%;
+    float: right;
+    bottom: 798px;
+    left: 175px;
+  }
+
+  .pinNumber {
+    display: inline;
+    position: absolute;
+    z-index: 1;
+
+    color: white;
+    top: 427px;
+    bottom: 0px;
+    margin-bottom: 0px;
+    left: 451px;
+    right: 0px;
+    width: 40px;
+    height: 44px;
+  }
+}
+
+@media (max-width: 1008px) {
+  body {
+    font-size: 20px;
+    font-family: Space Grotesk;
+    font-weight: 500;
+  }
+
+  .mainBgLeft {
+    display: inline;
+    position: relative;
+    z-index: -1;
+    max-width: 150%;
+    max-height: 150%;
+    height: inherit;
+  }
+
+  .frontCard1 {
+    position: relative;
+    display: inline;
+    float: left;
+    z-index: 1;
+    width: 100%;
+    bottom: 500px;
+    left: 150px;
+  }
+
+  .backCard {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    float: right;
+    bottom: 450px;
+    left: 200px;
+  }
+
+  .nameOnCard {
+    display: inline;
+    position: absolute;
+    z-index: 1;
+
+    color: white;
+    top: 180px;
+    bottom: 0px;
+    margin-bottom: 0px;
+    left: 158px;
+    right: 0px;
+    width: 250px;
+    height: 20px;
+    font-size: 14px;
+  }
+  .expDateMonth {
+    display: inline;
+    position: absolute;
+    z-index: 1;
+
+    color: white;
+    top: 180px;
+    bottom: 0px;
+    margin-bottom: 0px;
+    left: 300px;
+    right: 0px;
+    width: 250px;
+    height: 20px;
+    font-size: 14px;
+  }
+
+  .symbol {
+    display: inline;
+    position: absolute;
+    z-index: 1;
+
+    color: white;
+    top: 180px;
+    bottom: 0px;
+    margin-bottom: 0px;
+    left: 315px;
+    right: 0px;
+    width: 250px;
+    height: 20px;
+    font-size: 14px;
+  }
+
+  .expDateYear {
+    display: inline;
+    position: absolute;
+    z-index: 1;
+
+    color: white;
+    top: 180px;
+    bottom: 0px;
+    margin-bottom: 0px;
+    left: 320px;
+    right: 0px;
+    width: 250px;
+    height: 20px;
+    font-size: 14px;
+  }
+
+  .cardNumber {
+    display: inline;
+    position: absolute;
+    z-index: 1;
+
+    color: white;
+    top: 150px;
+    bottom: 0px;
+    margin-bottom: 0px;
+    left: 190px;
+    right: 0px;
+    width: 250px;
+    height: 20px;
+    font-size: 16px;
+  }
+
+  .cardLogo {
+    display: inline;
+    position: absolute;
+    z-index: 1;
+
+    color: white;
+    top: 100px;
+    bottom: 0px;
+    margin-bottom: 0px;
+    left: 150px;
+    right: 0px;
+    width: 70px;
+    height: 44px;
+  }
+  .pinNumber {
+    display: inline;
+    position: absolute;
+    z-index: 1;
+
+    color: white;
+    top: 308px;
+    bottom: 0px;
+    margin-bottom: 0px;
+    left: 350px;
+    right: 0px;
+    width: 70px;
+    height: 44px;
+  }
+
+  .nameInput {
+    margin-bottom: 10px;
+    width: 28rem;
+    border-radius: 2.5%;
+    height: 2.4rem;
+  }
+  .cardNumInput {
+    width: 28rem;
+    border-radius: 2.5%;
+    height: 2.4rem;
+  }
+  .dateInputM {
+    width: 20%;
+    border-radius: 2.5%;
+    height: 2.4rem;
+    display: inline;
+  }
+  .dateInputY {
+    width: 20%;
+    border-radius: 2.5%;
+    height: 2.4rem;
+  }
+  .cvcInput {
+    width: 30%;
+    border-radius: 2.5%;
+    height: 2.4rem;
+  }
+}

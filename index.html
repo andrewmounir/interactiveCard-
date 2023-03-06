@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Interactive card details form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+
+  <link href="https://fonts.google.com/specimen/Space+Grotesk">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+
+  <div class="row">
+
+    <div class="col-3">
+
+      <div>
+        <img class="mainBgLeft" src="images/bg-main-desktop.png" alt="">
+
+        <div><img class="frontCard1" src="images/bg-card-front.png" alt="">
+          <p class="nameOnCard">Jane Appleseed </p>
+          <p class="expDateMonth">02 </p>
+          <p class="symbol">/</p>
+          <p class="expDateYear">3</p>
+          <p class="cardNumber">1234 5678 9123 0000 </p>
+          <img class="cardLogo" src="images/card-logo.svg" alt="">
+
+
+        </div>
+        <div><img class="backCard" src="images/bg-card-back.png" alt="" srcset=""></div>
+        <p class="pinNumber"> 154</p>
+
+      </div>
+
+
+
+    </div>
+    <div class=" col-9 hidden">
+
+      <p class=" completeText1">Thank you</p>
+      <p class=" completeText2">We have added your card details</p>
+  
+  
+      <img class=" completeImage" src="images/icon-complete.svg" alt="" srcset="">
+      <button class=" completeButton">Countinue</button>
+
+
+</div>
+
+    <div class="col-9 completed">
+
+
+
+      <form class="validationInput" action="">
+        <p>Cardholder Name</p>
+        <input class="nameInput" type="text">
+        <p>Cardholder Number</p>
+        <input class="cardNumInput" type="text">
+        <p></p>
+        <div class="row">
+          <div class="col-6">
+            <p style="display: inline;">Exp.Date </p>
+            <p style="display: inline;"> &nbsp; &nbsp; &nbsp; &nbsp; (MM/YY)</p>
+            <p style="display: inline;"> &nbsp; &nbsp; &nbsp; &nbsp; cvc</p>
+            <br>
+            <input class="dateInputM" type="text">
+            <input class="dateInputY" type="text">
+
+            <input class="cvcInput" type="text">
+          </div>
+
+        </div>
+        <br>
+        <br>
+
+
+      </form>
+      <button class="confirmButton btn btn-primary  btn-lg">Confirm</button>
+
+    </div>
+ 
+
+  </div>
+
+
+
+    <!-- 0000 0000 0000 0000
+  Jane Appleseed
+  00/00
+
+  000
+
+  Cardholder Name
+  e.g. Jane Appleseed
+
+  Card Number
+  e.g. 1234 5678 9123 0000
+
+  Exp. Date (MM/YY)
+  MM
+  YY
+
+  CVC
+  e.g. 123
+
+  Confirm
+
+  Completed state start
+
+   Thank you!
+  We've added your card details
+  Continue -->
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
